@@ -1,10 +1,13 @@
+/* global Vue */
+
 new Vue({
   el: '#exercise',
   data: {
-    array: ['Max', 'Anna', 'Chris', 'Manu'],
+    show: true,
+    aubreyMaturinBooks: ['Master & Commander', 'Post Captain', 'HMS Surprise', 'The Mauritius Command'],
     myObject: {
       title: 'Lord of the Rings',
-      author: 'J.R.R. Tolkiens',
+      author: 'J.R.R. Tolkien',
       books: '3'
     },
     testData: {
